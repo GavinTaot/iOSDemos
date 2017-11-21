@@ -19,7 +19,7 @@
     if (self.allowRotation) {
         return UIInterfaceOrientationMaskAll;
     }
-    
+    NSLog(@"你好啊");
     return UIInterfaceOrientationMaskPortrait;
 }
 
